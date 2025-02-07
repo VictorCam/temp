@@ -1,0 +1,16 @@
+html,
+body,
+#app {
+  --uno: m0 p0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slide-enter-active {
+  --uno: animate-slide-in-up animate-duration-175ms transition-ease-in-out;
+}
+
+.slide-leave-active {
+  --uno: animate-slide-in-up animate-duration-175ms animate-reverse transition-ease-in-out;
+}
